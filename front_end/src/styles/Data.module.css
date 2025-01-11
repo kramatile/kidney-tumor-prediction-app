@@ -1,0 +1,93 @@
+.data {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+}
+
+.data h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.data h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.data p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.data ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.data ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.data blockquote {
+    font-size: 0.9rem;
+    font-style: italic;
+    background: #eef9f8;
+    border-left: 4px solid #1abc9c;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #555;
+}
+
+.data strong {
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+.data {
+    transition: all 0.3s ease-in-out;
+}
+
+.data:hover {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kaggle{
+    background-color: #1abc9c;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+.data a{
+ text-decoration: none;
+ color: whitesmoke;
+}
+
+.kaggle:hover a{
+    color:rgb(87, 95, 104);
+}
+
+.kaggle:hover{
+    background-color:#3d6ed079;
+}

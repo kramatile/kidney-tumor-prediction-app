@@ -1,0 +1,38 @@
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    background-color: #cad2c580;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+}
+
+.presentation:hover{
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.3);
+    background-color: #cfdaca80;
+}
+.presentation img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.presentation .description {
+    height: 150px;
+    width: 300px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

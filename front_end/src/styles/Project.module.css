@@ -1,0 +1,33 @@
+.image_form {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adds spacing between elements */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    padding: 20px; /* Adds internal spacing */
+}
+
+.image_form p {
+    font-size: 16px;
+    color: #333; /* Darker text for readability */
+    text-align: center; /* Center-aligns text */
+    line-height: 1.5; /* Improves text spacing */
+}
+
+.image_form p span {
+    
+    font-weight: bold;
+    color: #4fd978; /* Highlight for the "NB:" text */
+}
+
+.image_form .nb {
+    background: #eef9f8;
+    border-left: 4px solid #1abc9c;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #555;
+}

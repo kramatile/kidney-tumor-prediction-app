@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #cad2c5;
+    user-select: none;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.navbar .logo h1{
+    display: inline;
+    color: #354F52;
+    transition: 0.5s ease-in-out;
+}
+
+
+.navbar .logo svg{
+    width: 75px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar .logo:hover svg{
+    fill: whitesmoke;
+}
+
+.navbar .logo:hover h1{
+    color: whitesmoke;
+}
+
+
+nav {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s ;
+}
+
+nav a:hover{
+    color: #354F52;
+}
+
+.active {
+    color: #354F52;
+}
+
